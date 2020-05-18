@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000000;
+  font-family: "Helvetica Neue", arial, sans-serif;
+  font-weight: 400;
+  color: rgb(209, 206, 206);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  height: 100%;
+}
+
+#app h1 {
+  position: absolute;
+  left: 15%;
+}
+
+#box {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  margin-top: -50px;
+  margin-left: -100px;
+  min-width: 500px;
+  min-height: 250px;
+  border-width: 5px;
+  border-style: inset;
+  padding: 15px;
+}
